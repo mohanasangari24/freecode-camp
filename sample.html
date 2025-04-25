@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume - N. Mohana Sangari</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: hwb(0 89% 11%);
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: rgb(253, 253, 253);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 2px solid #020101;
+            padding-bottom: 20px;
+        }
+        .header img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        .header h1 {
+            font-size: 2.5em;
+            color: #0e0d0d;
+            margin: 0;
+        }
+        .header h3 {
+            font-size: 1.5em;
+            color: #777;
+            margin: 5px 0 0;
+        }
+        .contact-info ul {
+            padding: 0;
+            list-style: none;
+            margin: 10px 0;
+        }
+        .contact-info li {
+            margin: 8px 0;
+            font-size: 1.1em;
+            color: #1a1818;
+        }
+        .contact-info a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+        .section-title {
+            font-size: 1.5em;
+            color: #1b0202;
+            margin-top: 20px;
+            border-bottom: 2px solid #161515;
+            padding-bottom: 5px;
+        }
+        ul, ol {
+            padding-left: 20px;
+        }
+        ul li, ul li {
+            margin: 5px 0;
+        }
+        .skills, .achievements, .technical-skills, .languages {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+        }
+        .skills li, .achievements li, .technical-skills li, .languages li {
+            font-size: 1.1em;
+            color: #030303;
+        }
+        .portfolio p {
+            font-style: italic;
+            color: #867e7e;
+            margin-top: 20px;
+        }
+        @media (max-width: 768px) {
+            .header {
+                flex-direction: column;
+                text-align: center;
+            }
+            .skills, .achievements, .technical-skills, .languages {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header class="header">
+        <div class="profile-image">
+            <img src="image1.jpg" alt="Profile Photo">
+        </div>
+        <div class="profile-info">
+            <h1>N.MOHANA SANGARI</h1>
+            <h3>B.E. Computer Science Engineering</h3>
+            <p>Full Stack Developer</p>
+        </div>
+    </header>
+
+    <section class="contact-info">
+        <div class="section-title"><b>CONTACT INFORMATION</b></div>
+        <ul>
+            <li>Phone: 9750490226</li>
+            <li>Email: <a href="mailto:mohanasangari@gmail.com">mohanasangari@gmail.com</a></li>
+            <li>Location: South Street, Thiruppalaikudi, RMD</li>
+            <li>LinkedIn: <a href="https://www.linkedin.com/in/n-mohana-sangari-b298772b9">linkedin.com/in/n-mohana-sangari</a></li>
+        </ul>
+    </section>
+
+    <section class="summary">
+        <div class="section-title"><b>SUMMARY</b></div>
+        <p>Motivated and detail-oriented Computer Science student with strong foundational knowledge in software development, data structures, and algorithms. Proficient in programming languages such as Python, Java, and C++, with hands-on experience in web development, database management, and problem-solving. Adept at working in collaborative environments and passionate about continuous learning and innovation.</p>
+    </section>
+
+    <section class="education">
+        <div class="section-title"><b>EDUCATION</b></div>
+        <ul>
+            <li><strong>2021-2022:</strong> Syed Ammal Matric Hr Sec School</li>
+            <li><strong>2022-2026:</strong> Mohamed Sathak Engineering College, Kilakarai</li>
+        </ul>
+    </section>
+
+    <section class="skills">
+        <div class="section-title"><b>SKILLS</b></div>
+        <ul>
+            <li>Leadership</li>
+            <li>Teamwork</li>
+            <li>Problem Solving</li>
+            <li>Time Management</li>
+            <li>Communication</li>
+        </ul>
+    </section>
+
+    <section class="achievements">
+        <div class="section-title"><b>ACHIVEMENTS</b></div>
+        <ul>
+            <li>Completed Core Java</li>
+            <li>Completed PHP and MySQL</li>
+            <li>Completed Cisco Certification</li>
+        </ul>
+    </section>
+
+    <section class="technical-skills">
+        <div class="section-title"><b>TECHNICAL SKILLS</b></div>
+        <ul>
+            <li>Core Java</li>
+            <li>Python</li>
+            <li>C</li>
+            <li>C++</li>
+        </ul>
+    </section>
+
+    <section class="languages">
+        <div class="section-title"><b>LANGUAGES</b></div>
+        <ul>
+            <li>Tamil (Native)</li>
+            <li>English (Fluent)</li>
+        </ul>
+    </section>
+
+</div>
+
+</body>
+</html>
